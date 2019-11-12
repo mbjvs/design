@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/dbwebb-se.min.css",
+                "css/kmom01.css",
                 //"css/kmom01.css",
             ],
             "javascripts" => [
@@ -61,6 +61,14 @@ return [
             "template" => "anax/v2/navbar/responsive_submenus",
             "data" => [
                 "navbarConfig" => require __DIR__ . "/navbar/responsive.php",
+            ],
+        ],
+        [
+            "region" => "footer",
+            "template" => "anax/v2/block/default",
+            "data" => [
+                "class"  => "small",
+                "contentRoute" => "block/byline",
             ],
         ],
         [

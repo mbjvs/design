@@ -1,25 +1,15 @@
 ---
-title: "Min fina titel"
+title: "Landningssida, Magnus, designkursen"
 ---
-Min me-sida i kursen design
+Landningssidan, Magnus, designkursen
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/magnus.jpg?w=200" class="right" caption="Gammal bild på Magnus"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Mitt namn är Magnus och jag är född och uppvuxen i Uppsala men sedan ungefär fem år tillbaka håller jag till i Stockholm där jag nu bor med fru och en son som föddes sommaren 2018.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+När jag inte förvärvsarbetar eller, som nu, arbetar som förälder på heltid sysslar jag gärna med musik och musicerande i olika former. En mörk källare i Uppsala har under många år fungerat som bas för mina olika musikprojekt och där huserar också min lite för stora och i perioder oanvända samling analogsynthar. Att fylla lägenheten i Stockholm med skivor och egenbyggda effektpedaler är också något jag placerar inom paraplyet "musikintresserad".
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Något som jag ofta sammanför med familj, jobb och musicerande är att resa till min sommarstuga i mörkaste Hälsingland där jag spenderar så många långhelger och semesterveckor min familj går med på.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Och varför har jag valt att studera webbprogrammering och databaser HT19-VT20? Mitt förvärvsarbete innefattar mycket kravande och beställande av system, webbar och dylikt och jag känner att en ökad förståelse för hantverket kommer göra mig till en bättre beställare - och vem vet, i framtiden kanske jag ser mig själv på andra sidan en sådan relation?

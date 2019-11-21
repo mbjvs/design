@@ -1,0 +1,148 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+.small, .smaller, small {
+    font-size: .875em;
+}
+
+.region-breadcrumb {
+    width: 100%;
+    margin-left: .5%;
+    margin-right: .5%
+}
+
+.region-flash {
+    float: center;
+    overflow: auto;
+    padding: 25px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.breadcrumb-list li, .bullet-list li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb-list li::after, .bullet-list li::after {
+    content: " » "
+}
+
+.inner-wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+}
+
+.inner-wrap-main {
+    padding-bottom: 28px;
+}
+
+.inner-wrap-header {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.outer-wrap-header {
+    height: 60px;
+    margin-bottom: 10px;
+    overflow: visible;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-logo {
+  display: none;
+}
+
+.site-logo-text {
+    font-family: Roboto,Times,serif;
+    padding-left: .2em;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.region-main {
+    display: inline;
+    width: 75%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.wrap-sidebar {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.region-header-col-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.outer-wrap-main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outer-wrap-footer {
+    background-color: #ada397;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.figure-center {
+      display: table;
+      padding: 2em;
+      margin: 0;
+      margin-bottom: 20px;
+      margin: auto;
+}
+
+.figure.right {
+    float: right;
+    margin: auto;
+}
+
+.footer-column-wrapper {
+    color: #e6e2d3;
+    padding-bottom: 24px;
+    margin-bottom: 200px;
+}
+
+.wrap-sidebar region-sidebar-right has-sidebar-right has-sidebar {
+  float: right;
+}
+
+.footer-column {
+    display: inline;
+    float: left;
+    width: 25%;
+    margin-left: .4%;
+    margin-right: .4%;
+    padding-bottom: 20px;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.next-previous {
+  float: right;
+}

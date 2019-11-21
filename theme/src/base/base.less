@@ -1,0 +1,39 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #556B2F;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: Roboto, Geneva, sans-serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #111;
+    display: block;
+    box-sizing: border-box;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+header {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+article {
+    display: block;
+}

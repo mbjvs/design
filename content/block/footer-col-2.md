@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Footer, andra lådan
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Inte heller här något vettigt ännu.

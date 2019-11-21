@@ -19,6 +19,6 @@ views:
 Kort om kursen och random bild
 =========================
 
-Här kommer jag skriva lite mer blandad text om kursen... eventuellt... *troligen* inte va?
+Här kommer jag skriva lite mer blandad text om kursen... eventuellt... *troligen* inte va? <i class="fas fa-ghost"></i>
 
-[FIGURE src=image/git.jpg?w=600 caption="GitHub"]
+![GitHub](image/git.jpg?w=450 "GitHub")

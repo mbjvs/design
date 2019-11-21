@@ -1,3 +1,4 @@
-#### Footerlåda 3
+#### <i class="fas fa-code-branch"></i>  Sidversion
 
-Inte heller här något intressant.
+v. 2.0.2  
+[GitHub](https://github.com/mbjvs/design)  

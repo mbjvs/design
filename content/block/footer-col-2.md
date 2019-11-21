@@ -1,3 +1,2 @@
-#### Footer, andra lådan
-
-Inte heller här något vettigt ännu.
+#### Kontaktuppgifter
+<i class="fas fa-envelope-open-text"></i> maam19@student.bth.se

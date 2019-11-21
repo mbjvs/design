@@ -330,10 +330,14 @@ body {
   box-sizing: border-box;
   color: #3e4444;
   background-color: #bdcebe;
-  font: 90%/1 Roboto, Geneva, sans-serif;
+  font: 90%/1.5 Roboto, Geneva, sans-serif;
 }
 header {
   display: block;
+}
+a {
+  color: #3e4444;
+  padding: 2px;
 }
 div {
   display: block;
@@ -363,10 +367,14 @@ small {
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
+.figure-center {
+  display: none;
+}
 .region-flash {
   float: center;
   overflow: auto;
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 15px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;

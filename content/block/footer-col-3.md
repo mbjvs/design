@@ -1,4 +1,4 @@
-#### <i class="fas fa-code-branch"></i>  Sidversion
+#### Sidversion
 
-v. 2.0.2  
+v. 3.0.1  
 [GitHub](https://github.com/mbjvs/design)  

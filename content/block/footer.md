@@ -1,1 +1,1 @@
-Copyright Magnus 2019
+©️ Magnus 2019

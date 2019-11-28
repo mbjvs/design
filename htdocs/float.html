@@ -1,0 +1,26 @@
+<div class="inner-wrap inner-wrap-header">
+    <div class="row">
+        <div class="region header1">header1</div>
+        <div class="region header2">header2</div>
+    </div>
+</div>
+
+<div class="inner-wrap inner-wrap-flash">
+    <div class="row">
+        <div class="region flash">flash</div>
+    </div>
+</div>
+
+<div class="inner-wrap inner-wrap-main">
+    <div class="row">
+        <div class="region sidebar-left">sidebar-left</div>
+        <div class="region main">main</div>
+        <div class="region sidebar-right">sidebar-right</div>
+    </div>
+</div>
+
+<div class="inner-wrap inner-wrap-footer">
+    <div class="row">
+        <div class="region footer">footer</div>
+    </div>
+</div>

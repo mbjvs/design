@@ -1,0 +1,41 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #ada397;
+@bgColorBody: #94B279;
+@colorBody: #031927;
+@footerColor: #FE5F55;
+//@fontFamilyBody: Roboto, Geneva, sans-serif;
+
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 90%/1.5 @fontFamilyBody;
+}
+
+header {
+    display: block;
+}
+
+a {
+    color: @colorBody;
+    padding: 2px;
+}
+
+div {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+	background-color: @footerColor;
+}

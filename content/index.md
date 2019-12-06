@@ -1,7 +1,7 @@
 ---
 title: "Landningssida, Magnus, designkursen"
 ---
-Landningssidan, Magnus, designkursen
+Magnus, designkursen
 =========================
 
 [FIGURE src="image/magnus.jpg?w=200" class="right" caption="Gammal bild på Magnus"]

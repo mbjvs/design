@@ -1,0 +1,47 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1000px) {
+	.region-main {
+		#desinax-vgrid.column(@columns);
+	}
+	.region-sidebar-left {
+		#desinax-vgrid.column(@columns);
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.region-main {
+		&.has-sidebar-right {
+			#desinax-vgrid.column(@columns);
+		}
+		.region-sidebar-right {
+			#desinax-vgrid.column(@columns);
+		}
+	}
+	// let the main region to show in column
+	.inner-wrap-main .row {
+		flex-direction: column;
+	}
+	// let the footer region to show div default block mode, to remove float
+	.footer-column {
+		clear: both;
+	}
+}
+
+&.left,
+&.right {
+    @media screen {
+        @media (max-width: round(@maxContentWidth * 2 / 3)) {
+            &.w50 {
+                margin-left: 0;
+                margin-right: 0;
+                float: none;
+                img {
+                    width: @maxContentWidth * 2 / 3;
+                }
+            }
+        }
+    }
+}

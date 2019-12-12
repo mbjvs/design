@@ -327,6 +327,7 @@ body {
   box-sizing: border-box;
   color: #718EA4;
   background-color: #294F6D;
+  overflow-x: hidden;
 }
 header {
   display: block;
@@ -337,6 +338,12 @@ a {
 }
 div {
   display: block;
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
 }
 * {
   box-sizing: border-box;

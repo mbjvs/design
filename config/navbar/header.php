@@ -51,7 +51,12 @@ return [
         [
             "text" => "Rapporter",
             "url" => "rapport",
-            "title" => "KMOM04: Rapporter",
+            "title" => "Rapporter",
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg",
         ],
         [
             "text" => "Om",

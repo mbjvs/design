@@ -1,6 +1,6 @@
 #### Sidversion
 
-v. 5.0.1  
+v. 6.0.1  
 [GitHub](https://github.com/mbjvs/design)  
 
 #### Teman

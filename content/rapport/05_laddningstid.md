@@ -53,7 +53,3 @@ I verktyget PageSpeed Insights får php-manualen betyget 92 för desktop och 44 
 Trots att de tre webbsidorna skiljer sig åt i syfte, innehåll och upplägg finns det några förbättringsförslag som återkommer och det är framförallt att ta bort resurser som blockerar renderingen av webbsidan och att skjuta upp inläsning av bilder som inte visas på skärmen. I och med att både DN.se och Kritiker.se använder sig av många resurser och en hel del data så skulle någon typ av prioriteringsordning hjälpa båda webbplatser.
 
 För att klargöra om laddningstiderna är långsamma eller snabba behövs en mer tillförlitlig nollmätning med tillhörande teoretisk grund. Men givet den tunna empirin denna rapport är baserad på skulle DN och php.net kunna bedömas vara snabbladdande och kritiker.se förhållandevis långsam. Längre än 2 sekunder ska en inte behöva vänta på att en sida laddas givet att det är ett vanligt text+bild-innehåll.
-
-5. Övrigt
------------------------
-Författare: von Sydow, Magnus

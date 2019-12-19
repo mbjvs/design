@@ -1,0 +1,64 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+ @bgColorHtml: #437C90;
+ @bgColorBody: #318EA4;
+ @colorBody: #EEEBD3;
+//@fontFamilyBody: Roboto, Geneva, sans-serif;
+
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+    margin: 0;
+    box-sizing: border-box;
+    color: @colorBody;
+    background-color: @bgColorHtml;
+    font-kerning: auto;
+    text-align: center;
+}
+
+@keyframes example {
+  from {background-color: #F7C548;}
+  to {background-color: #437C90;}
+}
+
+.inner-wrap {
+  padding: 40px;
+}
+
+.inner-wrap-header {
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 25px;
+  animation-name: example;
+  animation-duration: 1.5s;
+  font-size: 22px;
+}
+
+
+
+header {
+    display: block;
+}
+
+a {
+    color: @colorBody;
+    padding: 2px;
+}
+
+div {
+    display: block;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+	background-color: #255957;
+}

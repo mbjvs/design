@@ -1,0 +1,65 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+ @bgColorHtml: silver;
+ @bgColorBody: #318EA4;
+ @colorBody: #4d4d4d;
+//@fontFamilyBody: Roboto, Geneva, sans-serif;
+
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: @colorBody;
+    background-color: @bgColorHtml;
+    background-image:
+    radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
+    overflow-x: hidden;
+    //font: 90%/1.5 @fontFamilyBody;
+}
+
+.inner-wrap {
+  padding-left: 17px;
+  padding-right: 17px;
+  background-color: rgba(192, 192, 192, 0.6);
+  border-radius: 25px;
+}
+
+.inner-wrap-main {
+  border-style: dotted;
+}
+
+
+
+header {
+    display: block;
+}
+
+a {
+    color: @colorBody;
+    padding: 2px;
+}
+
+div {
+    display: block;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+	background-color: @bgColorHtml;
+}

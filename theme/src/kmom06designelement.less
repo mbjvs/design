@@ -1,0 +1,107 @@
+/*!
+ * Stylesheet for kmom06, designelement.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+
+/**
+  * Normalize and reset the style.
+  */
+
+@import "normalize.css/normalize.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+
+@import "module/kmom01.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+@import "base/base6-element.less";
+
+/**
+ * Import the vertical grid.
+ */
+
+@import "@desinax/vertical-grid/less/grid.less";
+// Default grid, change to fit your requirements.
+@columnWidth: 30;
+@gutterWidth: 10;
+@columns: 24;
+@gridType: "float"; // "flex"
+
+/**
+* Import Desinax: figure
+*/
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+@maxContentWidth: 0;
+
+figure.figure {
+  	@maxContentWidth: 960px;
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+@import "layout/layout6-element.less";
+@import "layout/responsive6-element.less";
+@import "layout/regions.less"; // To add style for ?regions
+
+/**
+ * Import the typographic grid.
+ */
+
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+// Adapt the typo-grid to my style ->
+@magicNumber: 22px; // 24 är det andra alternativet
+@fontSizeBody: 16px;
+// Show the grid
+.hgrid .inner-wrap {
+	@gridImage: "../img/magic-number-@{magicNumber}.png";
+	#desinax-hgrid.showGrid(@gridImage);
+}
+
+@fontFamilyHeadings:  @fontFamilyVerdana;
+@fontFamilyBody:      @fontFamilyHelvetica;
+@fontFamilyCode:      @fontFamilyHelvetica;
+
+/**
+ * Font Awesome.
+ */
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * A responsive menu.
+ */
+
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
